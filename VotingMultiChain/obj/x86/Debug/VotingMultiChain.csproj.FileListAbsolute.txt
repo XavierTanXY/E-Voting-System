@@ -1,0 +1,14 @@
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/bin/Debug/VotingMultiChain.exe.config
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/bin/Debug/VotingMultiChain.exe
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/bin/Debug/VotingMultiChain.pdb
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/bin/Debug/MultiChainLib.dll
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/bin/Debug/MySql.Data.dll
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/bin/Debug/Renci.SshNet.dll
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/bin/Debug/Newtonsoft.Json.dll
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/bin/Debug/MultiChainLib.pdb
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/bin/Debug/Renci.SshNet.xml
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/obj/x86/Debug/VotingMultiChain.csprojResolveAssemblyReference.cache
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/obj/x86/Debug/VotingMultiChain.csproj.CoreCompileInputs.cache
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/obj/x86/Debug/VotingMultiChain.exe
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/obj/x86/Debug/VotingMultiChain.pdb
+/home/laurence/Projects/VotingMultiChain/VotingMultiChain/bin/Debug/MultiChainLib.dll.mdb
