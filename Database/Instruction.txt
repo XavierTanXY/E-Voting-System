@@ -1,0 +1,84 @@
+## Instructions
+
+### Installations
+1. Must install **mono packages**, **MySQL** and also **MonoDevelop IDE**.
+
+	* Download MonoDevelop IDE
+		* After creating a project, there is a folder called "Packages"
+		  click the setting icon beside it and add the following packages:
+
+		  * MySql.Data
+		  * MySql.Data.Entity
+		  * MySql.Web
+		  * EntityFramework
+		  * Microsoft.Net.Compilers
+
+	* Update your system to lastest version
+		* run "sudo apt-get update" 
+		* If an error occurs about "Unable to lock the adminstration directory" :
+			* run "sudo rm /var/lib/apt/lists/lock"
+			* run "sudo rm /var/cache/apt/archives/lock"
+			* run "sudo rm /var/lib/dpkg/lock"
+
+	* Install MySQL and its server
+		* run "sudo apt-get install server"
+		* run "sudo mysql_secure_installation"
+
+### Using MySQL to create database and sample models
+2. Run MySQL using "mysql -u root -p" as root user, enter password when prompted
+
+	* Create a databse using "create database <Database Name>", 
+		For example, "create database User;"
+
+	* Select that database you just created using "use <Database Name", 
+		For example, "use User;"
+
+	* Inside the database you just selected, create a sample table using:
+
+		"create table <Table Name>
+		( id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+		  firstname varchar(32), 
+		  lastname varchar(32), 
+		  voted char(1)
+		)";
+
+	* Insert data into that table using:
+
+		"insert into <Table Name> values ( null, <firstname>, <lastname>, 'n' ); "
+
+	* Exit database for now using "exit"
+
+### Using my c# program to access the database
+3. Create a project using MonoDevelop or using any text editor is fine, copy the code from TestExample.cs and 
+   paste it to yours and change the following to your database or model:
+		
+		string connectionString =
+			"Server=localhost;" +
+			"Database=<your database name>;" +
+			"User ID=root;" +
+			"Password=<your password for your database>;" +
+			"Pooling=false";
+
+		string sql =
+			"SELECT id, firstname, lastname, voted " +
+			"FROM User";
+
+	* If you are using MonoDevelop IDE then just save and run, if you are using gedit or any text editor, run this to complie:
+
+		To compile :
+		* mcs <Your file name>.cs -r:System.Data.dll -r:/usr/lib/mono/gac/MySql.Data/<Folder name starts with version number>/MySql.Data.dll
+		To run:
+		* monno <Your file name>.exe
+
+
+
+
+
+
+
+
+
+
+
+
+

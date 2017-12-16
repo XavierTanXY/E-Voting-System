@@ -1,0 +1,77 @@
+Only read this if you are using the DatabaseVM uploaded.
+Please note that the data in database is not encrypted yet. The data is now available for development purposes only.
+A newer version will be uploaded if encryption and hashing are added.
+
+DatabaseVM Details:
+    -VM name: blockchain
+    -VM password: blockchain5
+    
+Database in DatabaseVM Details:
+    -Database username: blockchain5
+    -Database password: blockchain5
+    
+    First in this vm, test logging in to database without ssh:
+    
+    1. Use "mysql -u blockchain5 -p"
+    2. Enter "blockchain5" for password"
+    3. Select our database using "use eVoting;"
+    4. To show the tables in the database, use "show tables;", there are currently three tables - voters, administrators and candidates
+    5. Show datas in table using "SELECT * FROM <table_name>;"
+    
+    There are 4 accounts in voters table:
+        1.username = xavier, password = blockchain5
+        2.username = oliver, password = oliver
+        3.username = tiffany, password = tiffany
+        4.username = liam, password = liam
+        
+    There are 4 accounts in administrators table:
+        1.username = xavier, password = xavier
+        2.username = laurence, password = laurence
+        3.username = wendy, password = wendy
+        4.username = jesse, password = jesse
+
+    There are 3 accounts in candidates table:
+        1.username = James
+        2.username = Rick
+        3.username = Adam
+
+Instructions on connecting to database remotely using ssh from your machine's command line:
+
+    On your machine:
+    Before turning on your machine, please make sure that you change Network to bridge adapter if you haven't do so.
+    
+    1.Make sure to install ssh server using: 
+    -    sudo apt-get install openssh-server
+    
+    2.Make sure your mono is up to date, if not you may run into problem when compiling this project:
+    Please note that this is for Ubuntu 16.04, if you are not using Ubuntu 16.04, please visit this website:
+    http://www.mono-project.com/download/#download-lin
+    
+    -    sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+    -    echo "deb http://download.mono-project.com/repo/ubuntu xenial main" | sudo tee /etc/apt/sources.list.d/mono-official.list
+    -    sudo apt-get update
+    -    sudo apt-get install mono-complete
+   
+    3.Generate an SSH key pair for Public Key Authentication as this will strengthen the security of your server by requiring a private SSH key to log in.
+    -    ssh-keygen
+    The default file and path should be similar as below:
+    home/your-username/.ssh/id_rsa
+    You can change them or press Enter to agree. Next, enter a strong passphrase when prompted. Public and private key should be generated as the final result.
+	Copy the public key to the database remote machine that we would like to use.
+    -    cat ~/.ssh/id_rsa.pub | ssh -p 2299 blockchain@remote-ip-address "mkdir -p 2299 ~/.ssh && cat >>  ~/.ssh/authorized_keys"
+    
+    4.Use the following command to connect to the remote database machine:
+    -    ssh -p 2299 blockchain@remote_IP_address
+   
+    5.Enter the passphrase for remote-user.
+    -    blockchain5
+    
+    6.After successful remote connection attempt, start MySQL service (just like the instructions above on accessing database).
+    Login into MySQL as blockchain5.
+    mysql -u blockchain5 -p
+    
+    7. To exit database
+    -    Run "exit" in mysql
+    
+    8. To exit ssh connection
+    -    Run "logout" on command line

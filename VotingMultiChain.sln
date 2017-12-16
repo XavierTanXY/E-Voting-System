@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingMultiChain", "VotingMultiChain\VotingMultiChain.csproj", "{33F26ADF-6271-47CC-8101-AD50A392EFD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiChainLib", "MultiChainLib\MultiChainLib.csproj", "{F7C35562-FDD5-4124-86DF-B8BE94CF816D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33F26ADF-6271-47CC-8101-AD50A392EFD9}.Debug|x86.ActiveCfg = Debug|x86
+		{33F26ADF-6271-47CC-8101-AD50A392EFD9}.Debug|x86.Build.0 = Debug|x86
+		{33F26ADF-6271-47CC-8101-AD50A392EFD9}.Release|x86.ActiveCfg = Release|x86
+		{33F26ADF-6271-47CC-8101-AD50A392EFD9}.Release|x86.Build.0 = Release|x86
+		{F7C35562-FDD5-4124-86DF-B8BE94CF816D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F7C35562-FDD5-4124-86DF-B8BE94CF816D}.Debug|x86.Build.0 = Debug|Any CPU
+		{F7C35562-FDD5-4124-86DF-B8BE94CF816D}.Release|x86.ActiveCfg = Release|Any CPU
+		{F7C35562-FDD5-4124-86DF-B8BE94CF816D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

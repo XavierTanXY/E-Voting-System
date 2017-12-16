@@ -1,0 +1,15 @@
+insert into administrators 
+(id, name, username, password) 
+values 
+(null, 'Xavier', 'xavier', 'xavier'),
+(null, 'Wendy', 'wendy', 'wendy'),
+(null, 'Laurence', 'laurence', 'laurence'),
+(null, 'Jesse', 'jesse', 'jesse'),
+(null, 'Mihai', 'mihai', 'mihai'),
+(null, 'Mark', 'mark', 'mark'),
+(null, 'Hannes', 'hannes', 'hannes'),
+(null, 'Dave', 'dave', 'dave'),
+(null, 'Ling', 'ling', 'ling'),
+(null, 'Sonny', 'sonny', 'sonny');
+
+TOTAL: 10 Administrators

@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{33F26ADF-6271-47CC-8101-AD50A392EFD9}|Default" StartupItem="VotingMultiChain/VotingMultiChain.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VotingMultiChain/MainStationWindow.cs">
+    <Files>
+      <File FileName="VotingMultiChain/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="VotingMultiChain/LoginWindow.cs" Line="1" Column="1" />
+      <File FileName="VotingMultiChain/VotingWindow.cs" Line="303" Column="1" />
+      <File FileName="MultiChainLib/Client/MultiChainClient.cs" Line="1" Column="1" />
+      <File FileName="VotingMultiChain/ConnectDB.cs" Line="1" Column="1" />
+      <File FileName="VotingMultiChain/Model/Person.cs" Line="1" Column="1" />
+      <File FileName="VotingMultiChain/MainStationWindow.cs" Line="45" Column="16" />
+      <File FileName="VotingMultiChain/Program.cs" Line="1" Column="1" />
+      <File FileName="VotingMultiChain/Model/Candidate.cs" Line="1" Column="1" />
+      <File FileName="VotingMultiChain/Ssh.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.VotingMultiChain PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

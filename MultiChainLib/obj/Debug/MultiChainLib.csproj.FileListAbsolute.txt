@@ -1,0 +1,13 @@
+/home/laurence/Desktop/MultiChainVote/MultiChainLib/bin/Debug/MultiChainLib.dll
+/home/laurence/Desktop/MultiChainVote/MultiChainLib/bin/Debug/MultiChainLib.pdb
+/home/laurence/Desktop/MultiChainVote/MultiChainLib/bin/Debug/Newtonsoft.Json.dll
+/home/laurence/Desktop/MultiChainVote/MultiChainLib/bin/Debug/Newtonsoft.Json.xml
+/home/laurence/Desktop/MultiChainVote/MultiChainLib/obj/Debug/MultiChainLib.csproj.CoreCompileInputs.cache
+/home/laurence/Desktop/MultiChainVote/MultiChainLib/obj/Debug/MultiChainLib.dll
+/home/laurence/Desktop/MultiChainVote/MultiChainLib/obj/Debug/MultiChainLib.pdb
+/home/laurence/Projects/VotingMultiChain/MultiChainLib/bin/Debug/MultiChainLib.dll
+/home/laurence/Projects/VotingMultiChain/MultiChainLib/bin/Debug/MultiChainLib.pdb
+/home/laurence/Projects/VotingMultiChain/MultiChainLib/obj/Debug/MultiChainLib.csprojResolveAssemblyReference.cache
+/home/laurence/Projects/VotingMultiChain/MultiChainLib/obj/Debug/MultiChainLib.csproj.CoreCompileInputs.cache
+/home/laurence/Projects/VotingMultiChain/MultiChainLib/obj/Debug/MultiChainLib.dll
+/home/laurence/Projects/VotingMultiChain/MultiChainLib/obj/Debug/MultiChainLib.pdb
